@@ -1,3 +1,7 @@
+kornerr's fork note
+===================================
+This fork only changes the dependency pod name from 'ReactiveCocoa' to 'ReactiveObjC' so that this pod works without Swift
+
 UIGestureRecognizer+ReactiveCocoa.h
 ===================================
 
