@@ -52,7 +52,7 @@ Practically, to avoid circular reference, you should weakify `self` to do someth
 Installation
 ---
 
-`pod 'UIGestureRecognizer+ReactiveObjC', :git => 'https://github.com/kornerr/UIGestureRecognizer+RACExtension'`
+`pod 'UIGestureRecognizer+ReactiveObjC', :git => 'https://github.com/kornerr/UIGestureRecognizer-RACExtension'`
 
 and import `UIGestureRecognizer+ReactiveCocoa.h` in your code.
 
