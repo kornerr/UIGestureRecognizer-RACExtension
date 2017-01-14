@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
-  s.name         = "UIGestureRecognizer+ReactiveCocoa"
-  s.version      = "0.1.0"
-  s.summary      = "Handle gestures with ReactiveCocoa! No more ugly selectors!"
-  s.homepage     = "https://github.com/kaiinui/UIGestureRecognizer-RACExtension"
+  s.name         = "UIGestureRecognizer+ReactiveObjC"
+  s.version      = "0.1.1"
+  s.summary      = "Handle gestures with ReactiveObjC! No more ugly selectors!"
+  s.homepage     = "https://github.com/kornerr/UIGestureRecognizer-RACExtension"
   s.license      = "MIT"
-  s.author       = { "kaiinui" => "lied.der.optik@gmail.com" }
-  s.source       = { :git => "https://github.com/kaiinui/UIGestureRecognizer-RACExtension.git", :tag => "v0.1.0" }
+  s.author       = { "kornerr" => "kornerr@gmail.com" }
+  s.source       = { :git => "https://github.com/kornerr/UIGestureRecognizer-RACExtension.git", :tag => "v0.1.1" }
   s.source_files  = "UIGestureRecognizerRACExt/Classes/**/*.{h,m}"
   s.requires_arc = true
   s.platform = "ios", '7.0'
-  s.dependency 'ReactiveCocoa'
+  s.dependency 'ReactiveObjC'
 end
