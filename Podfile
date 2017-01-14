@@ -1,7 +1,7 @@
 platform :ios, '7.0'
 
 target 'GestureRecognizerRACExt' do
-  pod 'ReactiveCocoa'
+  pod 'ReactiveObjC'
 end
 
 target 'GestureRecognizerRACExtTests' do
