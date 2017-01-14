@@ -5,9 +5,11 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/kornerr/UIGestureRecognizer-RACExtension"
   s.license      = "MIT"
   s.author       = { "kornerr" => "kornerr@gmail.com" }
+  s.platform     = :ios
   s.source       = { :git => "https://github.com/kornerr/UIGestureRecognizer-RACExtension.git", :tag => "v0.1.1" }
-  s.source_files  = "GestureRecognizerRACExt/Classes/*.{h,m}"
+  s.source_files = "GestureRecognizerRACExt/Classes/*.{h,m}"
   s.requires_arc = true
-  s.platform = "ios", '7.0'
+  s.ios.deployment_target = "7.0"
+  s.public_header_files = "GestureRecognizerRACExt/Classes/*.h"
   s.dependency 'ReactiveObjC'
 end
