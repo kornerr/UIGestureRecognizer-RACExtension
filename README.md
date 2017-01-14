@@ -54,7 +54,7 @@ Installation
 
 `pod 'UIGestureRecognizer+ReactiveObjC', :git => 'https://github.com/kornerr/UIGestureRecognizer-RACExtension'`
 
-and import `UIGestureRecognizer+ReactiveCocoa.h` in your code.
+and import `UIGestureRecognizer+ReactiveObjC/UIGestureRecognizer+ReactiveCocoa.h` in your code.
 
 LICENSE
 ---
